@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">hzLauncher Host</string>
+
+    <!--Activities-->
+    <string name="activity_splash">Splash Screen</string>
+    <string name="activity_logon">Logon Screen</string>
+    <string name="activity_auth">Set Passcode</string>
+    <string name="activity_dashboard">Launcher</string>
+
+    <!--Fingerprint Auth-->
+    <string name="fingerprint_authentication">Fingerprint Authentication</string>
+    <string name="fa_instructions">Place your fingertip on the fingerprint sensor to verify your identity</string>
+    <string name="fa_no_hardware">Your device doesn\'t support fingerprint authentication</string>
+    <string name="fa_no_permission">Please enable the fingerprint permission</string>
+    <string name="fa_no_fingerprint_registered">No fingerprint configured. Please register at least one fingerprint in your device\'s Settings</string>
+    <string name="fa_lockscreen_not_secured">Please enable lockscreen security in your device\'s Settings</string>
+    <string name="fa_prompt">Enabling fingerprint allows quick access to your information.</string>
+
+    <!--Auth Screen-->
+    <string name="auth_confirm">Confirm your Passcode</string>
+    <string name="auth_enter">Enter your Passcode</string>
+    <string name="auth_incorrect">Incorrect Passcode</string>
+    <string name="auth_no_match">Passcodes don\'t match</string>
+    <string name="auth_criteria_len">Passcode must have %1$d digits</string>
+    <string name="auth_prompt_auth">Choose a Passcode with %1$d digits</string>
+    <string name="auth_prompt_confirm_auth">Confirm your Passcode</string>
+</resources>

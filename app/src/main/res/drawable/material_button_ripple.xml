@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/material_button_fill" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent_black" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/material_button_fill" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent_black" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/material_button_fill" />
+</selector>

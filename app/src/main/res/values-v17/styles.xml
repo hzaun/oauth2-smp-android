@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="hzView.Material">
+        <item name="android:layout_marginStart">@dimen/material_margin_xs</item>
+        <item name="android:layout_marginEnd">@dimen/material_margin_xs</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">@dimen/material_view_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <style name="hzView.Form.Label.Small" parent="hzView.Form.Label">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/ts_small</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_marginStart">@dimen/material_margin_medium</item>
+        <item name="android:layout_marginTop">@dimen/material_margin_medium</item>
+    </style>
+</resources>

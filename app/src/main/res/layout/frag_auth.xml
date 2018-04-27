@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_background_gray"
+    tools:context=".view.AuthActivity">
+
+    <TextView
+        android:id="@+id/tvAuthPrompt"
+        android:layout_width="@dimen/material_view_width"
+        android:layout_height="23dp"
+        android:layout_marginBottom="@dimen/material_margin_xl"
+        android:layout_marginLeft="@dimen/material_margin_medium"
+        android:layout_marginRight="@dimen/material_margin_medium"
+        android:layout_marginTop="@dimen/material_margin_medium"
+        android:gravity="center"
+        android:text="@string/activity_auth"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cvAuthPin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvAuthPin"
+        style="@style/hzCard.Accent"
+        app:layout_constraintBottom_toTopOf="@+id/bNext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAuthPrompt"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <AutoCompleteTextView
+            android:id="@+id/actvAuthPin"
+            style="@style/hzView.Material"
+            android:backgroundTint="@color/white"
+            android:hint="Authentication Pin"
+            android:imeOptions="actionDone"
+            android:inputType="numberPassword"
+            android:maxLines="1" />
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/bNext"
+        style="@style/hzButton.Accent"
+        android:layout_margin="16dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cvAuthPin" />
+</android.support.constraint.ConstraintLayout>

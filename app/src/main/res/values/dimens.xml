@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="material_margin_xxl">128dp</dimen>
+    <dimen name="material_margin_xll">80dp</dimen>
+    <dimen name="material_margin_xl">64dp</dimen>
+    <dimen name="material_margin_large">32dp</dimen>
+    <dimen name="material_margin_ml">24dp</dimen>
+    <dimen name="material_margin_medium">16dp</dimen>
+    <dimen name="material_margin_sm">12dp</dimen>
+    <dimen name="material_margin_smm">10dp</dimen>
+    <dimen name="material_margin_small">8dp</dimen>
+    <dimen name="material_margin_xs">4dp</dimen>
+    <dimen name="material_margin_xxs">2dp</dimen>
+
+    <dimen name="material_view_width">300dp</dimen>
+    <dimen name="material_view_width_large">350dp</dimen>
+    <dimen name="material_view_height">50dp</dimen>
+    <dimen name="material_spinner_width">222dp</dimen>
+
+    <!--Button-->
+    <dimen name="material_button_radius">2dp</dimen>
+
+    <!--Card-->
+    <dimen name="material_card_size">200dp</dimen>
+    <dimen name="material_card_status">8dp</dimen>
+
+    <!--View-->
+    <dimen name="material_view_size">50dp</dimen>
+    <dimen name="material_form_height">60dp</dimen>
+
+    <!--Header-->
+    <dimen name="header_image_height_top">136dp</dimen>
+    <dimen name="header_image_height_small">224dp</dimen>
+    <dimen name="header_image_height">256dp</dimen>
+    <dimen name="header_image_height_large">296dp</dimen>
+
+    <!--Text-->
+    <dimen name="ts_small">14sp</dimen>
+    <dimen name="ts_sm">16sp</dimen>
+    <dimen name="ts_medium">18sp</dimen>
+    <dimen name="ts_mml">21sp</dimen>
+    <dimen name="ts_mll">24sp</dimen>
+    <dimen name="ts_36">36sp</dimen>
+    <dimen name="ts_large">48sp</dimen>
+    <dimen name="ts_xl">64sp</dimen>
+
+    <!--Gallery View-->
+    <dimen name="photo_width">120dp</dimen>
+    <dimen name="photo_height">112dp</dimen>
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="cardview_light_background">#FFFFFFFF</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+
+    <declare-styleable name="CardView">
+        <attr name="cardBackgroundColor" format="color" />
+        <attr name="cardCornerRadius" format="dimension" />
+        <attr name="cardElevation" format="dimension" />
+        <attr name="cardMaxElevation" format="dimension" />
+        <attr name="cardUseCompatPadding" format="boolean" />
+        <attr name="cardPreventCornerOverlap" format="boolean" />
+        <attr name="contentPadding" format="dimension" />
+        <attr name="contentPaddingLeft" format="dimension" />
+        <attr name="contentPaddingRight" format="dimension" />
+        <attr name="contentPaddingTop" format="dimension" />
+        <attr name="contentPaddingBottom" format="dimension" />
+        <attr name="android:minWidth" />
+        <attr name="android:minHeight" />
+    </declare-styleable>
+
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+
+    <style name="Base.CardView" parent="android:Widget">
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+</resources>
